@@ -15,4 +15,4 @@ Allows you to throw a coin to make choices like in mini-games, useful for taking
 1. Begin by downloading the contents and then proceed to open the downloaded zip file.
 2. Extract the zip file.
 3. Drag the folder "CoinFlipWarden" into the '/game/csgo/addons/counterstrikesharp/plugins' directory on your game server.
-4. Once the files are successfully transferred, restart your server to apply the changes or simply type ```css_plugins load "CoinFlipWarden""```
+4. Once the files are successfully transferred, restart your server to apply the changes or simply type ```css_plugins load "CoinFlipWarden"```
