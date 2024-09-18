@@ -16,15 +16,15 @@ public class Plugin : BasePlugin
     // Load the commands when the plugin is loaded
     public override void Load(bool hotReload)
     {
-        AddCommand("coinflip", "Coin flip command for CT only", Command_CoinFlip);
-        AddCommand("cf", "Short command for coin flip", Command_CoinFlip); // Alias for the same command
+        AddCommand("css_coinflip", "Coin flip command for CT only", Command_CoinFlip);
+        AddCommand("css_cf", "Short command for coin flip", Command_CoinFlip); // Alias for the same command
     }
 
     // Unload the commands when the plugin is unloaded
     public override void Unload(bool hotReload)
     {
-        RemoveCommand("coinflip", Command_CoinFlip);
-        RemoveCommand("cf", Command_CoinFlip);
+        RemoveCommand("css_coinflip", Command_CoinFlip);
+        RemoveCommand("css_cf", Command_CoinFlip);
     }
 
     // Command to flip a coin (only available to Counter-Terrorists)
